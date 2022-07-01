@@ -8,6 +8,6 @@ for line in file_lines:
     else:
         continue
 file_content_new_formatted = '\n'.join(file_content_new)
-print(file_content_new)
+print(file_content_new_formatted)
 file_write = open("./data/changfeng.txt", 'w', encoding="utf-8")
 file_write.write(file_content_new_formatted)
